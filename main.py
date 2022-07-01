@@ -7,7 +7,7 @@ token = TOKEN
 
 bot = telebot.TeleBot(token)
 
-file_name = path.join(path.dirname(__file__), F)
+№file_name = path.join(path.dirname(__file__), F)
 
 users = set()
 @bot.message_handler(commands=['start'])
